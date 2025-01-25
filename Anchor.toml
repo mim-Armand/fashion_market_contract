@@ -1,18 +1,21 @@
 [toolchain]
-package_manager = "Yarn"
 
 [features]
-resolution = true
+seeds = false
 skip-lint = false
 
 [programs.localnet]
-fashion_market_contract = "B5AfjkkfsNFZzuk3Yjd2vFkQmkbKEdcoi5vtztCmtqeM"
+marketplace = "2HutoV77VksPtWycEpXcsKuxaC1VC8yuUbPxyGMJYRu8"
+
+[programs.devnet]
+marketplace = "2HutoV77VksPtWycEpXcsKuxaC1VC8yuUbPxyGMJYRu8"
+
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "localnet"
+cluster = "devnet"
 wallet = "~/.config/solana/id.json"
 
 [scripts]
