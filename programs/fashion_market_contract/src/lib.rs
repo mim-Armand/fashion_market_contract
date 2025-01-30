@@ -9,7 +9,7 @@ use anchor_lang::AccountsClose;
 
 use crate::constant::PREFIX;
 
-/// the program ID should be moved out eventually and set based on deployment env ( following best practices )
+// the program ID should be moved out eventually and set based on deployment env ( following best practices )
 declare_id!("GfLfsgUP5dQ2gGN4DAPSGZErKSCVZzsVBtof7ZafUP3n");
 
 #[program]
